@@ -58,6 +58,14 @@
      margin-top: 20px;
    }
    
+   nav {
+    grid-column: 5/13;
+  }
+  
+  nav h1{
+    color: #ffffff;
+  }
+   
    main {
      display: grid;
      grid-template-columns: repeat(12, 1fr);
