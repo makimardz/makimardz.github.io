@@ -58,11 +58,11 @@
      margin-top: 20px;
    }
    
-   nav {
+  nav {
     grid-column: 5/13;
   }
   
-  nav h1{
+  nav h1 {
     color: #ffffff;
   }
    
