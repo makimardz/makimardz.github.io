@@ -1,9 +1,14 @@
-const currentDate = new Date();
-const year = currentDate.getFullYear();
+"use strict";
 
-const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', hour: "numeric", minute: "numeric", second: "numeric"};
-const today = new Date().toLocaleDateString('en-UK', options);
+    var dayNames = [
+        "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+    ];
+    var months = [
+        "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+    ];
+    var d = new Date();
+    var dayName = dayNames[d.getDay()];
+    var monthName = months[d.getMonth()];
+    var fullDate = d.getHours() + ":" + d.getMinutes() + " " + dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
 
-document.querySelector('#lastUpdated').textContent = `Last Updated: ${document.lastModified}`;
-
-document.querySelector('#copyRight').textContent = `\u00A9 ${year} | Landon Carter | Utah`;
+    document.getElementById("rightNow").innerHTML = "Last Updated: " + fullDate;
