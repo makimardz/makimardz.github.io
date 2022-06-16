@@ -8,9 +8,7 @@
 	}
     table {
         width: 100%;
-        border: thick double #32a1ce;
-        border-width: 10px;
-        border-radius: 1em;
+        
     }
 	main picture {
 		display: block;
