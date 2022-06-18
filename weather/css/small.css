@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    background-color: #4C4AFF;
+    background-color: #6D6875;
     color: white;
     display: flex;
     flex-direction: column;
@@ -26,16 +26,16 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #FB5607;
+    background: #F69090;
     color: white;
 }
 
 footer {
-    background: #167973;
+    background: #B5838D;
 }
 
 header h1 {
-    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: white;
     margin: 0;
@@ -46,7 +46,7 @@ header .motto {
 }
 
 nav {
-    background-color: #2E6BDF;
+    background-color: #F69090;
 }
 
 nav ul {
@@ -114,22 +114,22 @@ td, th{
 }
 
 .primary-background {
-    background-color: #FB5607;
+    background-color: #6D6875;
     text-align: center;
 }
 
 .secondary-background {
-    background-color: #4c4aff;
+    background-color: #F69090;
     text-align: center;
 }
 
 .accent1-background {
-    background-color: #167973;
+    background-color: #B5838D;
     text-align: center;
 }
 
 .accent2-background {
-    background-color: #2E6BDF;
+    background-color: #FFCDB2;
     text-align: center;
 }
 
