@@ -110,10 +110,10 @@ nav ul {
     background-color: #fedede;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 50px);
     grid-column: 1/13;
     margin-top: 0px;
     margin-bottom: 15px;
-    text-align: left;
     width: 100%;
 }
   
@@ -130,9 +130,20 @@ nav ul {
 }
   
 .banner-box p {
-    grid-column: 7/13;
-    grid-row: 3;
+    grid-column: 6/13;
+    grid-row: 4;
     padding: 30px 30px 0px 0px;
+}
+  
+.banner-box ul, li {
+    grid-column: 6/13;
+    grid-row: 2;
+    padding: 10px 10px 0px 20px;
+}
+  
+.banner-box h1 {
+    grid-column: 6/13;
+    grid-row: 1;
 }
   
 .logo-box {
