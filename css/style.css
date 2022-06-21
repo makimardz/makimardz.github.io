@@ -110,7 +110,6 @@ nav ul {
     background-color: #fedede;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(8, 50px);
     grid-column: 1/13;
     margin-top: 0px;
     margin-bottom: 15px;
