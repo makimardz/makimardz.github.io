@@ -1,14 +1,40 @@
-"use strict";
+/* 
+let lastModified = new Date(document.lastModified);
+let fullDate = lastModified.toLocaleString('en-US', {month: "2-digit", day: "2-digit", year: "numeric"});
+let time = lastModified.toLocaleString('en-GB', {hour: "2-digit", minute: "2-digit", second: "2-digit"});
+let dateTime = `Last Updated: ${fullDate} ${time}`;
+document.getElementById("lastModified").innerHTML = dateTime;
+ */
 
-    var dayNames = [
-        "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-    ];
-    var months = [
-        "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
-    ];
-    var d = new Date();
-    var dayName = dayNames[d.getDay()];
-    var monthName = months[d.getMonth()];
-    var fullDate = d.getHours() + ":" + d.getMinutes() + " " + dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
+let dayNames = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+];
 
-    document.getElementById("rightNow").innerHTML = "Last Updated: " + fullDate;
+let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+
+let curDate = new Date();
+let dayName = dayNames[curDate.getDay()];
+let monthName = months[curDate.getMonth()];
+let year = curDate.getFullYear();
+let currentDate = `${dayName}, ${curDate.getDate()}, ${monthName} ${year}`;
+
+document.getElementById("currentDate").innerHTML = currentDate;
