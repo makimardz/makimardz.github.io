@@ -237,7 +237,8 @@ td, th{
     width: 100%;
     padding-bottom: 0.3rem;
     margin-bottom: 3%;
-    color: #fff;
+    color: #6D6875;
+    background-color: #fff;
     font-family: sans-serif;
     border-radius: 1rem;
     box-shadow: inset -1px 3px 8px 5px #FFCDB2, 2px 5px 16px 0px #B5838D, 5px 5px 15px 5px rgba(0, 0, 0, 0);
