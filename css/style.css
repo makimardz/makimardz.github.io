@@ -86,7 +86,12 @@ nav a {
     color: #fedede;
     text-decoration: none;
 }
-  
+
+nav h1 {
+    color: #fedede;
+    text-decoration: none;
+}
+
 nav a:hover {
     border-radius: 5px;
     color: #fedede;
