@@ -15,7 +15,6 @@ Fonts are separated by a | */
   --heading-font: Poppins, sans-serif;
   --paragraph-font: Poppins, sans-serif;
 
-  
   --headline-color-on-white: #6D6875;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
@@ -30,7 +29,7 @@ Fonts are separated by a | */
 
 
 html {
-  background-color: var(--accent3-color);
+  background-color: var(--accent2-color);
 }
 body {
   max-width: 940px;

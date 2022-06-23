@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    background-color: #6D6875;
+    background-color: #B5838D;
     color: white;
     display: flex;
     flex-direction: column;
@@ -26,12 +26,12 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #F69090;
+    background: #6D6875;
     color: white;
 }
 
 footer {
-    background: #B5838D;
+    background: #F69090;
 }
 
 header h1 {
@@ -76,6 +76,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    background-color:#FFCDB2;
 }
 
 a {
