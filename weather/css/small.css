@@ -79,6 +79,11 @@ nav a:hover {
     background-color:#FFCDB2;
 }
 
+nav a.active {
+    text-decoration: underline;
+    background-color:#FFCDB2;
+}
+
 a {
     color: white;
 }
@@ -141,4 +146,147 @@ td, th{
 .expand-menu li:first-child a{
     color: #111111;
     text-decoration: none;
+}
+
+.fridayBanner {
+    font-family: "Poppins";
+    font-size: 18px;
+    text-align: center;
+    background-color: #FFCDB2;
+    color: #fff;
+}
+
+.announce {
+    display: none;
+    height: auto;
+    font-size: 20px;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 30%;
+    background-color: #FFCDB2;
+    color: #000;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.banner-img {
+    width: 100%;
+    max-height: 17rem;
+}
+
+.weatherSumary {
+    margin-top: .3rem;
+    width: 100%;
+    text-align: center;
+    height: 10rem;
+    background: #F69090;
+    color: azure;
+}
+
+.weatherSumary:hover {
+    background-color: #6D6875;
+}
+
+.weatherSumary ul {
+    padding: 0;
+}
+
+.weatherSumary ul li {
+    list-style: none;
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+}
+
+.weatherSumary ul li:hover {
+    background-color: #FFCDB2;
+    transform: translateX(10px);
+}
+
+.weatherWeek {
+    display: block;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.weatherWeek h3 {
+    text-align: center;
+}
+
+#weatherDay {
+    margin: 50 20;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: #B5838D;
+}
+
+#forecast-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 0.3rem;
+    margin-bottom: 3%;
+    color: #fff;
+    font-family: sans-serif;
+    border-radius: 1rem;
+    box-shadow: inset -1px 3px 8px 5px #FFCDB2, 2px 5px 16px 0px #B5838D, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+#forecast-day:hover {
+    transform: translateX(5px);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+#high {
+    margin-top: 1rem;
+}
+
+.article {
+    display: block;
+    margin: 1rem 2rem;
+    padding: 10px;
+    border: 1px solid #000;
+    color: #6D6875;
+    background-color: beige;
+    border-radius: 1em;
+}
+
+.article img {
+    float: right;
+    max-width: 45%;
+    max-height: 45%;
+}
+
+.clearfix {
+    font-size: 1em;
+    letter-spacing: 1pt;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
 }
