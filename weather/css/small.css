@@ -201,12 +201,12 @@ td, th{
     width: 100%;
     text-align: center;
     height: 15rem;
-    background: #F69090;
+    background: rgba(246,144,144,0.8);
     color: azure;
 }
 
 .weatherSumary:hover {
-    background-color: #6D6875;
+    background-color: rgba(109,104,117,0.8);
 }
 
 .weatherSumary ul {
