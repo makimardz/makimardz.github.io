@@ -1,4 +1,16 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
 * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -11,7 +23,7 @@ body {
 }
 
 main {
-    background-color: #B5838D;
+    
     color: white;
     display: flex;
     flex-direction: column;
@@ -44,6 +56,11 @@ header h1 {
 header .motto {
     font-style: italic;
 }
+
+header div {
+    display: none;
+}
+
 
 nav {
     background-color: #F69090;
@@ -175,7 +192,7 @@ td, th{
 }
 
 .banner-img {
-    width: 100%;
+    width: 960px;
     max-height: 17rem;
 }
 
@@ -183,7 +200,7 @@ td, th{
     margin-top: .3rem;
     width: 100%;
     text-align: center;
-    height: 10rem;
+    height: 15rem;
     background: #F69090;
     color: azure;
 }
@@ -220,8 +237,8 @@ td, th{
 }
 
 #weatherDay {
-    margin: 50 20;
-    width: 700px;
+    margin: 50 50;
+    width: 960px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -291,3 +308,4 @@ td, th{
     color: white;
     font-weight: 100;
 }
+
