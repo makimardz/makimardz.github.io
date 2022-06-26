@@ -1,28 +1,4 @@
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px
-*/
-
-@media (min-width: 1920px) {
-
-    nav ul {
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    nav li {
-        margin-right: 1rem;
-        display: flex;
-    }
-    
-    nav li:first-child {
-        display: none;
-    }
-
-    nav li:last-child {
-        margin-right: 0;
-    }
-
+@media only screen and (min-width: 50em) {
     .text-box {
         display: flex;
         flex-flow: column;
@@ -30,15 +6,22 @@
     header h1 {
         font-size: 2rem;
     }
-    
+    header,
+    footer {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #6d6875;
+    color: aliceblue;
+    }
     nav a {
         font-size: 1.1rem;
     }
-
     .weatherSumary {
         position: absolute;
         top: 350px;
-        left: 20rem;
+        left: 13rem;
         width: 15rem;
     }
     .article img {
@@ -64,7 +47,6 @@
         grid-template-columns: 1fr 1fr;
         margin: 1rem 0;
     }
-
     main {
         margin: 1rem 15% 1rem 15%;
     }
@@ -97,7 +79,4 @@
         height: 150px;
         margin: 0 .5rem 0 .5rem;
     }
-
 }
-© 2022 GitHub, Inc.
-Terms

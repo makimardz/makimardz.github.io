@@ -15,154 +15,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    padding: 0;
     margin: 0;
-}
-
-main {
-    
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 1rem;
-}
-
-header,
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: #6D6875;
-    color: white;
-}
-
-footer {
-    background: #F69090;
-}
-
-header h1 {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    color: white;
-    margin: 0;
-}
-
-header .motto {
-    font-style: italic;
-}
-
-header div {
-    display: none;
-}
-
-
-nav {
-    background-color: #F69090;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem 0;
-    margin: 0;
-    line-height: 1.6;
-}
-
-nav li {
-    display: none;
-}
-
-nav li:first-child {
-    display: block;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    background-color:#FFCDB2;
-}
-
-nav a.active {
-    text-decoration: underline;
-    background-color:#FFCDB2;
-}
-
-a {
-    color: white;
-}
-
-.card {
-    text-align: center;
-    width: 320px;
-    border: white dashed 2px;
-    margin: 1rem 0 0;
-    padding: 1rem;
-}
-
-.card ul {
-    list-style: none;
-    padding: 0;
-}
-
-.cloudy-logo{
-    display: flex;
-    justify-content: center;
-}
-
-table {
-    display: table;
-    border: 2px dashed white;
-}
-
-td, th{
-    border: 2px dashed white;
-}
-
-.container-table {
-    margin-top: 1rem;
-}
-
-.primary-background {
-    background-color: #6D6875;
-    text-align: center;
-}
-
-.secondary-background {
-    background-color: #F69090;
-    text-align: center;
-}
-
-.accent1-background {
-    background-color: #B5838D;
-    text-align: center;
-}
-
-.accent2-background {
-    background-color: #FFCDB2;
-    text-align: center;
-}
-
-.expand-menu li {
-    display: block;
-}
-
-.expand-menu li:first-child a{
-    color: #111111;
-    text-decoration: none;
 }
 
 .fridayBanner {
@@ -185,6 +38,116 @@ td, th{
     color: #000;
 }
 
+header div {
+    display: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+header,
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #6d6875;
+    color: aliceblue;
+}
+
+.box-icon {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+.box-icon h3 {
+    color: black;
+}
+
+.icon-header {
+    width: 350px;
+}
+
+footer a {
+    color: white;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #6d6875;
+}
+
+nav {
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    margin: 0 3.5em;
+    background-color: #F69090;;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    background: linear-gradient(90deg, transparent, rgb(246, 144, 144), transparent) top / var( --d, 0) 10px no-repeat;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: #6d6875;
+    color: #fff;
+    --d: 75%;
+}
+
+nav ul li.active a {
+    color: #6d6875;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul.open li a:hover {
+    background-color: #bbb;
+    color: #021a08;
+    --d: 75%;
+}
+
+main {
+    margin: 0 3.5em;
+}
+
+main h2 {
+    text-align: center;
+}
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -192,7 +155,7 @@ td, th{
 }
 
 .banner-img {
-    width: 960px;
+    width: 100%;
     max-height: 17rem;
 }
 
@@ -200,13 +163,13 @@ td, th{
     margin-top: .3rem;
     width: 100%;
     text-align: center;
-    height: 15rem;
-    background: rgba(246,144,144,0.8);
+    height: 13rem;
+    background: rgba(109, 104, 117, 0.8);
     color: azure;
 }
 
 .weatherSumary:hover {
-    background-color: rgba(109,104,117,0.8);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .weatherSumary ul {
@@ -222,7 +185,7 @@ td, th{
 }
 
 .weatherSumary ul li:hover {
-    background-color: #FFCDB2;
+    background-color: rgb(246, 144, 144);
     transform: translateX(10px);
 }
 
@@ -237,14 +200,14 @@ td, th{
 }
 
 #weatherDay {
-    margin: 50 50;
-    width: 960px;
+    /*margin: 0 auto;
+    width: 700px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    color: #B5838D;
+    color: #05386b;
 }
 
 #forecast-day {
@@ -254,11 +217,10 @@ td, th{
     width: 100%;
     padding-bottom: 0.3rem;
     margin-bottom: 3%;
-    color: #6D6875;
-    background-color: #fff;
+    color: #000;
     font-family: sans-serif;
     border-radius: 1rem;
-    box-shadow: inset -1px 3px 8px 5px #FFCDB2, 2px 5px 16px 0px #B5838D, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 #forecast-day:hover {
@@ -272,10 +234,10 @@ td, th{
 
 .article {
     display: block;
-    margin: 1rem 2rem;
+    margin: 1rem 0;
     padding: 10px;
     border: 1px solid #000;
-    color: #6D6875;
+    color: #05386B;
     background-color: beige;
     border-radius: 1em;
 }
@@ -286,8 +248,201 @@ td, th{
     max-height: 45%;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 10px;
+    border-radius: 1rem;
+    text-align: left;
+    color: #eee;
+    background-color: #05386b;
+    font-size: x-small;
+}
+
+#map {
+    width: auto;
+    height: auto;
+    margin: auto 5%;
+    float: left;
+}
+
+.contact-us {
+    grid-column: 2;
+    margin: auto;
+}
+
+.contact-us h4 {
+    text-align: center;
+}
+
+main h2 {
+    font-size: xx-large;
+}
+
+main hr {
+    margin-bottom: 1rem;
+}
+
+form {
+    /* background-color: #000023;*/
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 32%, rgba(0, 212, 255, 1) 100%);
+    color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2ch;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+}
+
+main form fieldset {
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+}
+
+label {
+    margin-bottom: 3rem;
+}
+
+input {
+    border-radius: 2ch;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#comments {
+    min-width: 5rem;
+    min-height: 5rem;
+}
+
+.submit_button {
+    max-height: 2rem;
+    margin: 1rem;
+}
+
+.submit_button:hover {
+    background-color: red;
+    color: #fff;
+}
+
+label:hover {
+    color: red;
+    font-size: larger;
+}
+
+.btn-thanks {
+    margin: 2rem;
+    border-radius: 1ch;
+    background-color: #1F87FF;
+}
+
+.btn-thanks a {
+    text-decoration: none;
+    color: #000;
+    font-size: xx-large;
+}
+
+.btn-thanks:hover {
+    background-color: red;
+}
+
+.btn-thanks a:hover {
+    color: #eee;
+}
+
+
+/*--------------------home-page------------------*/
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.cities {
+    margin-bottom: 1rem;
+    background-color: #FFD24C;
+    border-radius: 1ch;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.cities:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.cities h2 {
+    font-size: large;
+}
+
+.cities q {
+    font-size: small;
+}
+
+.containI,
+.i2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1ch;
+}
+
+.containP {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cities img {
+    width: 250px;
+    height: 150px;
+    margin: 0 .5rem 0 .5rem;
+}
+
+
+/*---------------   VIEWS WIREFRAME     --------------*/
+
+.wireframe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.views {
+    background-color: #FFD24C;
+    border-radius: 1ch;
+    margin: 0.5rem 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.views img {
+    max-width: 200px;
+    height: auto;
+}
+
+
+/*-----------------Clearfix: force an element not to collapse-------*/
+
 .clearfix {
-    font-size: 1em;
+    font-size: .9em;
     letter-spacing: 1pt;
     list-style: none;
     text-align: center;
@@ -309,3 +464,5 @@ td, th{
     font-weight: 100;
 }
 
+
+/* Small/Phone View ***************/

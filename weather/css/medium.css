@@ -1,9 +1,19 @@
-/* 
-  ##Device = Tablets, Ipads 
-  ##Screen = B/w 768px to 1024px
-*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  
+/* Medium Views ******************************/
+
+@media only screen and (min-width: 28rem) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    /* Horizontal Menu Examples */
+    /* Flex *********************/
+    /* nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 2 100%;
+        /* Grid *********************
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }*/
     nav button {
         display: none;
     }
@@ -31,11 +41,20 @@
         min-width: 20em;
         min-height: 25em;
     }
-    
-    #forecast-day {
-        width: 30%;
+    /*
+    .cards {
+        flex-direction: column;
     }
-
+    .cities {
+        width: 100%;
+        height: auto;
+    }
+    .containI {
+        flex-direction: row;
+    }
+    .containP {
+        display: block;
+    }*/
     .cards {
         flex-direction: column;
     }
@@ -61,5 +80,15 @@
         float: left;
         width: 400px;
     }
+}
 
+
+/*******************************************************/
+
+nav a {
+    font-size: 1rem;
+}
+
+main {
+    grid-template-columns: 1fr;
 }
