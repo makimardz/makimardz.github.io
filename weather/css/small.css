@@ -51,7 +51,8 @@ h3 {
 
 p,
 li,
-ul, .motto {
+ul, 
+.motto {
     font-family: 'Poppins', sans-serif;
 }
 
