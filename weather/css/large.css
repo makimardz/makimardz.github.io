@@ -79,4 +79,19 @@
         height: 150px;
         margin: 0 .5rem 0 .5rem;
     }
+
+    form label.sbs {
+        padding: 0.4rem 0;;
+      }
+      
+        .gallery-view {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 5%;
+          justify-content: center;
+        }
+      
+        figure:hover {
+          box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.4);
+        }
 }
